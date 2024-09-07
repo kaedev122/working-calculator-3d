@@ -51,9 +51,6 @@ const App = () =>{
 	}
 
 	const handleButtonClick = (label) => {
-		if (screenText === '123456') {
-			window.location.replace("https://www.facebook.com/duz.tako")
-		}
 		switch (label) {
 			case 'AC':
 				setScreenText('0');
